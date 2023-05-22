@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #444444 !important;
+  color: #fff !important;
+}
+h1 {
+  background-color: #3498db;
+  text-align: center;
+}
+.t-inputs {
+  font-size: 30px;
+  display: flex;
+  place-content: center;
+}
+.alertas {
+  display: flex;
+  visibility: hidden;
+  place-content: center;
+  border: 3px solid #ce332d !important;
+}
+.form-inputs {
+  text-align: center;
+  border: 2px solid #3498db !important;
+  border-radius: 29px !important;
+}
+.card {
+  background-color: #3498db !important;
+}
+.list-group {
+  color: #000 !important;
+}
+.btnAltaPrioridad {
+  margin-bottom: 2%;
+  margin-left: 1%;
+}
+.btnAltaPrioridad:hover {
+  background-color: #3498db !important;
+  color: #fff !important;
+  transition: all ease-out 1s !important;
+}
